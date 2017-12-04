@@ -10,6 +10,7 @@ HMMER 3.0 -(can be downloaded from http://hmmer.janelia.org/)
 **Samples scripts to run the protocol
 
 1. Make sure that the headers of the protein sequences in the multiFasta file (database) have the following formed at the beginning "> gi | <NUMBER> |". If not, use the script to insert a "fake gi"
+	
 perl insert_gi_single_line.pl [data_set] | grep -v  '^$' > [data_set_gi]
 
 2. Now, you can use the profiles HMM available to scan across the sequence database using 'hmmsearch'
