@@ -1,5 +1,5 @@
 # enzyme-classification
-scripts used to identify and classify beta-lactmases
+scripts used to identify and classify beta-lactamases
 
 ## Tools
 
